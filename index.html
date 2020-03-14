@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hey! I'm Flavio Biancospino and this is my personal page." />
+    <link rel='stylesheet' type='text/css' href='./css/style.css' />
+    <link rel='stylesheet' href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" as="style" />
+    <link rel="stylesheet" href="./css/hamburger-min.css" as="style">
+    <title>Flavio Biancospino | Personal page</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container-top-nav">
+            <div class="content-top-nav">
+                <img class="me-nav lazyload" src="./pics/webp/me-nav.webp" alt="Exemplar of Flavio Biancospino.">
+                <div class="me-nav-wrapper-info">
+                    <h1 class="me-nav-head">Flavio Biancospino</h1>
+                    <p class="me-nav-par">Software developer</p>
+                </div>
+            </div>
+        </div>
+        <ul class='navbar-links'>
+            <li class='navbar-link active'>
+                <a class='navbar-link-title' href='#showcase' aria-label="Showcase">
+                    <span class="underline-gradient first active">Showcase</span>
+                </a>
+            </li>
+            <li class='navbar-link'>
+                <a class='navbar-link-title' href='#academic' aria-label="Academic">
+                    <span class="underline-gradient second">Academic</span>
+                </a>
+            </li>
+            <li class='navbar-link'>
+                <a class='navbar-link-title' href='#skills' aria-label="Skills">
+                    <span class="underline-gradient third">Abilities</span>
+                </a>
+            </li>
+        </ul>
+        <div class="container-cta">
+            <a class='button-link' href='#footer' aria-label="Get in touch">
+                <span class="button-cta">
+                    Get in touch
+                </span>
+            </a>
+        </div>
+        <button class="hamburger hamburger--spin" type="button" aria-label="Menu" aria-controls="navigation">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </header>
+
+    <section id='showcase' class='page page-showcase'>
+        <div class="wrapper-showcase">
+            <div class="inner-wrapper-showcase">
+                <img class="me lazyload" 
+                     srcset="./pics/webp/me-250.webp 250w,
+                             ./pics/webp/me-175.webp 175w" 
+                     sizes="(min-width: 1001px) 250px,
+                            (max-width: 1000px) 175px" 
+                     alt="Exemplar of Flavio Biancospino.">
+                <h1 class="name">Flavio Biancospino</h1>
+                <p class="short-desc">Software developer from Italy.<br>Currently, master degree student.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <section id="academic" class="page page-academic">
+        <div class="container-timeline">
+            <h1 class="timeline-header">Timeline</h1>
+            <div class="timeline">
+                <div class="initial-dot"></div>
+                <ul>
+                    <li class="timeline-line">
+                        <div class="container-box-timeline">
+                            <div class="content-box-timeline">
+                                <p class="time">2010 - 2015</p>
+                                <h1 class="title-timeline-element">HIGH SCHOOL DIPLOMA</h1>
+                                <p class="desc-timeline-element">High school diploma specializing in scientic
+                                    subjects.</p>
+                                <p class="location-timeline-element">Liceo Scientifico Enrico Fermi, Muro Lucano
+                                    (PZ), Italy.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-line">
+                        <div class="container-box-timeline">
+                            <div class="content-box-timeline">
+                                <p class="time">2015 - 2019</p>
+                                <h1 class="title-timeline-element">BACHELOR'S DEGREE</h1>
+                                <p class="desc-timeline-element">Bachelor's degree in Computer Science.</p>
+                                <p class="location-timeline-element">University of Basilicata, Potenza (PZ), Italy.
+                                </p>
+                            </div>
+                        </div>
+                    <li class="timeline-line">
+                        <div class="container-box-timeline">
+                            <div class="content-box-timeline">
+                                <p class="time">2019 - Current</p>
+                                <h1 class="title-timeline-element">MASTER'S DEGREE</h1>
+                                <p class="desc-timeline-element"> Master's Degree in Computer and IT Engineering.</p>
+                                <p class="location-timeline-element">University of Basilicata, Potenza (PZ), Italy.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="acquired-knowledges">
+            <h1>Acquired Knowledges</h1>
+            <p class="wall-of-text-begin">
+                From an high school that favored scientific subjects, in the three years university course I had the
+                possibility to build a solid base in well-know topics of Computer Science. For instance:
+            </p>
+            <ul class="topics">
+                <li>
+                    <i class="fas fa-greater-than fa-xs"></i>
+                    &nbsp;Software Engineering
+                </li>
+                <li>
+                    <i class="fas fa-greater-than fa-xs"></i>
+                    &nbsp;Algorithms and Data Structures
+                </li>
+                <li>
+                    <i class="fas fa-greater-than fa-xs"></i>
+                    &nbsp;Procedural and Object-Oriented Programming
+                </li>
+                <li>
+                    <i class="fas fa-greater-than fa-xs"></i>
+                    &nbsp;Formal Database Theory and Applications
+                </li>
+                <li>
+                    <i class="fas fa-greater-than fa-xs"></i>
+                    &nbsp;Computer Architectures and Operating Systems
+                </li>
+                <li>
+                    <i class="fas fa-greater-than fa-xs"></i>
+                    &nbsp;Network Architectures
+                </li>
+            </ul>
+            <p class="wall-of-text-end">
+                Also, I had the opportunity to study Machine Learning theory and applications for my thesis project - on
+                Deep Reinforcement Learning and his application on a robotic arm.
+            </p>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <section id='skills' class='page page-skills'>
+        <div class="wrapper-skills">
+            <div class="inner-wrapper-skills">
+                <div class="wrapper-summary">
+                    <div class="inner-wrapper-summary">
+                        <h1 class="skills-header">
+                            In a nutshell
+                        </h1>
+                        <ul class="skills">
+                            <li>
+                                <i class="fas fa-greater-than fa-xs"></i>
+                                <span class="skill-desc">
+                                    <span class="eraser">
+                                        I've good capacity for analysis, abstraction and modelling
+                                    </span>
+                                    of the problems posed.
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fas fa-greater-than fa-xs"></i>
+                                <span class="skill-desc">
+                                    In order to achieve my goals,
+                                    <span class="eraser">
+                                        I'm totally technology agnostic, only focused on ideas and
+                                        possibilities - without forget concreteness
+                                    </span>
+                                    .
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fas fa-greater-than fa-xs"></i>
+                                <span class="skill-desc">
+                                    In team work,
+                                    <span class="eraser">I've a good aptitude for communication and
+                                        collaboration
+                                    </span>
+                                    .
+                                </span>
+                            </li>
+                            <li>
+                                <i class="fas fa-greater-than fa-xs"></i>
+                                <span class="skill-desc">
+                                    <span class="eraser">
+                                        I can organize myself efficiently
+                                    </span>
+                                    in compliance with deadlines and deliveries.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="charts-wrapper">
+                    <div class="inner-charts-wrapper">
+                        <div class="wrapper-navbar-charts">
+                            <div class='navbar-charts'>
+                                <div class="selector-charts"></div>
+                                <ul class='navbar-charts'>
+                                    <li class='navbar-charts-item active'>
+                                        <i class="fas fa-book-open"></i>
+                                        <span>&ensp;Knowledges</span>
+                                    </li>
+                                    <li class='navbar-charts-item'>
+                                        <i class="fas fa-code"></i>
+                                        <span>&ensp;Programming</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="radar-chart-wrapper">
+                            <canvas id="radar-chart" style="width: 450px; height: 450px;"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id='footer'>
+        <a class='back-to-the-top' href='#header' aria-label="Back to the top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <div class="container-footer">
+            <form name="contact netlify-honeypot" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <h1 class="contact-title">Get in touch</h1>
+                <div>
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human<br>
+                            <input name="bot-field" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>Full Name<br>
+                            <input name="name" type="text" required />
+                        </label>
+                    </p>
+                    <p>
+                        <label>E-mail<br>
+                            <input name="email" type="email" required />
+                        </label>
+                    </p>
+                    <p>
+                        <label>Message<br>
+                            <textarea name="message" maxlength="500" required></textarea>
+                        </label>
+                    </p>
+                    <button class="submit-button" type="submit">Send</button>
+                </div>
+            </form>
+            <div class="container-footer-nav">
+                <ul>
+                    <li>
+                        <h3>Sections</h3>
+                    </li>
+                    <li>
+                        <a class='footer-navbar-link-title' href='#showcase' aria-label="Showcase">
+                            Showcase
+                        </a>
+                    </li>
+                    <li>
+                        <a class='footer-navbar-link-title' href='#academic' aria-label="Academic">
+                            Academic
+                        </a>
+                    </li>
+                    <li>
+                        <a class='footer-navbar-link-title' href='#skills' aria-label="Skills">
+                            Abilities
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>Contact</h3>
+                    </li>
+                    <li>
+                        <a class="linkedin" href="https://www.linkedin.com/in/flavio-biancospino-2a160010a"
+                            rel="noopener" target="_blank" aria-label="Linkedin">
+                            Linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <a class="github" href="https://github.com/biancofla" rel="noopener" target="_blank"
+                            aria-label="GitHub">
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a class="telegram" href="https://t.me/bianco_fla" aria-label="Telegram">
+                            Telegram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="credits">
+                2020 | Flavio Biancospino
+        </div>
+        </div>
+    </footer>
+
+    <script defer src='js/jquery.min.js'></script>
+    <script async src="js/lazysizes.min.js"></script>
+    <script defer src='js/chart.min.js'></script>
+    <script defer src='js/main.js'></script>
+    <noscript>
+        <link rel="stylesheet" href="css/hamburger.css"></noscript>
+</body>
+
+</html>

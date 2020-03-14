@@ -1,0 +1,12 @@
+[[headers]]
+  for = "/js/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "*/cs/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "/pics/webp/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
