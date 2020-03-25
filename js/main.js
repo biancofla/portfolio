@@ -1,7 +1,3 @@
-if (performance.navigation.type == 1) {
-    $('html, body').scrollTop(0);
-}
-
 window.addEventListener('load', function () {
     let isClickFired = false;
     let timer = null;
@@ -140,7 +136,8 @@ window.addEventListener('load', function () {
         adjustHeights();
         // updateChart(); 
         // TODO: Mobile browser triggers resize event even with a simple scroll.
-        // This is due to the address bar in the process of hiding. 
+        // This is due to the address bar in the process of hiding. Try to fix
+        // this behavior.
     });
 
     window.addEventListener('orientationchange', function () {
@@ -169,8 +166,7 @@ window.addEventListener('load', function () {
             let activeIndex = -1;
             let clickedHref = this.getAttribute('href');
 
-            if (clickedHref === "#showcase" || clickedHref === "#header") {
-                clickedHref = "#showcase";
+            if (clickedHref == "#showcase" || clickedHref == "#header") {
                 activeIndex = 0;
             } else if (clickedHref === "#academic") {
                 activeIndex = 1;
