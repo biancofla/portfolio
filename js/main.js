@@ -136,8 +136,8 @@ window.addEventListener('load', function () {
         adjustHeights();
         // updateChart(); 
         // TODO: Mobile browser triggers resize event even with a simple scroll.
-        // This is due to the address bar in the process of hiding. Try to fix
-        // this behavior.
+        // This is due to the address bar in the process of hiding. 
+        // Try to avoid this behavior.
     });
 
     window.addEventListener('orientationchange', function () {
@@ -168,7 +168,7 @@ window.addEventListener('load', function () {
 
             if (clickedHref == "#showcase" || clickedHref == "#header") {
                 activeIndex = 0;
-            } else if (clickedHref === "#academic") {
+            } else if (clickedHref == "#academic") {
                 activeIndex = 1;
             } else {
                 activeIndex = 2;
